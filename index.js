@@ -15,6 +15,6 @@ const fareDoubler = createFareMultiplier(2);
 
 const fareTripler = createFareMultiplier(3);
 
-let randomFunc = selectingDrivers[Math.round(Math.random())]
+//let randomFunc = selectingDrivers[Math.round(Math.random())]
 
 const selectDifferentDrivers = (drivers, randomFunc) => (randomFunc(drivers))
